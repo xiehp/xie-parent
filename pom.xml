@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>xie</groupId>
+	<artifactId>xie-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>xie-parent</name>
+	<description>xie-parent</description>
+
+	<profiles>
+		<profile>
+			<id>web</id>
+			<modules>
+				<module>../common/XImportPom</module>
+				<module>../common/XCommon</module>
+				<module>../common/tietuku_sdk_java</module>
+				<module>../common/XSubtitle</module>
+				<module>../video2img/video2img-parent</module>
+				<module>../AnimeShotSite/AnimeShotSite-parent</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>timer</id>
+			<modules>
+				<module>../common/XImportPom</module>
+				<module>../common/XCommon</module>
+				<module>../common/tietuku_sdk_java</module>
+				<module>../common/XSubtitle</module>
+				<module>../video2img/video2img-parent</module>
+				<module>../AnimeShotSite/AnimeShotSite-parent</module>
+			</modules>
+		</profile>
+	</profiles>
+</project>
