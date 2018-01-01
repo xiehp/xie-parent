@@ -16,7 +16,7 @@
 				<module>../common/tietuku_sdk_java</module>
 				<module>../common/XSubtitle</module>
 				<module>../video2image/video2img-parent</module>
-				<module>../AnimeShotSite/AnimeShotSite-parent</module>
+				<module>../AnimeShotSitet</module>
 			</modules>
 		</profile>
 		<profile>
@@ -27,7 +27,7 @@
 				<module>../common/tietuku_sdk_java</module>
 				<module>../common/XSubtitle</module>
 				<module>../video2image/video2img-parent</module>
-				<module>../AnimeShotSite/AnimeShotSite-parent</module>
+				<module>../AnimeShotSite</module>
 			</modules>
 		</profile>
 	</profiles>
