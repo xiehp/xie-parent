@@ -20,6 +20,17 @@
 			</modules>
 		</profile>
 		<profile>
+			<id>image</id>
+			<modules>
+				<module>../common/XImportPom</module>
+				<module>../common/XCommon</module>
+				<module>../common/tietuku_sdk_java</module>
+				<module>../common/XSubtitle</module>
+				<module>../video2image/video2img-parent</module>
+				<module>../AnimeShotSite</module>
+			</modules>
+		</profile>
+		<profile>
 			<id>timer</id>
 			<modules>
 				<module>../common/XImportPom</module>
